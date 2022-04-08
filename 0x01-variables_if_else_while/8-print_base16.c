@@ -15,7 +15,7 @@ int main(void)
 		putchar(dig);
 		dig++;
 	}
-	while (alp <= 'e')
+	while (alp <= 'f')
 	{
 		putchar(alp);
 		alp++;
