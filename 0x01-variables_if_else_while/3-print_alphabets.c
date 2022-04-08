@@ -9,7 +9,7 @@ int main(void)
 	char alps = 'a';
 	char alpC = 'A';
 
-	for (int a = 1; a < 26; a++)
+	while (alps < 'z')
 	{
 		putchar(alps);
 		alps++;
