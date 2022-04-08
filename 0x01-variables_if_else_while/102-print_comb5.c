@@ -7,21 +7,26 @@
  */
 int main(void)
 {
-	int i, j;
+	int i, j, k;
 
 	i = 48;
 	while (i < 58)
 	{
-		j = 48;
+		j = 49;
 		while (j < 57)
 		{
-			putchar(i);
-			putchar(i);
-			putchar(' ');
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');
+			k = 48;
+			while (k < 58)
+			{
+				putchar(i);
+				putchar(i);
+				putchar(' ');
+				putchar(k);
+				putchar(j);
+				putchar(',');
+				putchar(' ');
+				k++;
+			}
 			j++;
 		}
 		i++;
