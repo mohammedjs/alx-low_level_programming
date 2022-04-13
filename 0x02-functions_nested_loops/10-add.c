@@ -1,17 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - adding two numbers inputted from keyboard
+ * add - Adds two integers and returns
+ * the result.
  *
- * Return: 0 (succes)
+ * @a: number one.
+ * @b: number two.
+ *
+ * Return: Add of number one and number two.
  */
-int main(void)
+int add(int a, int b)
 {
-	int num1, num2, sum;
-
-	sum = num1 + num2;
-
-	printf("%d\n", sum);
-
-	return (0);
+	return (a + b);
 }
