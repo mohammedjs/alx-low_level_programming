@@ -11,7 +11,7 @@ int main(void)
 
 	sum = num1 + num2;
 
-	printf("%d\n", sum)
+	printf("%d\n", sum);
 
 	return (0);
 }
