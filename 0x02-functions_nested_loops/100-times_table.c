@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Prinyt_times_table -print the n times table
+ * Print_times_table -print the n times table
  *
  * @n:numbesr tiems table (0 < n <= 15)
  *
