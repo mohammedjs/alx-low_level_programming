@@ -2,7 +2,8 @@
 
 /**
  * _strlen - return length of a string
- * @s: sting
+ * @s: string
+ * @count: number of words
  * Retutn: length of a sting
  */
 
