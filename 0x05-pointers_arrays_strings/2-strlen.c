@@ -1,21 +1,15 @@
 #include "main.h"
 
 /**
- * _strlen - return length of a string
- * @s: string
- * @count: number of words
- * Retutn: length of a sting
+ * _strlen - returns the length of a string.
+ * @s: input string.
+ * Return: length of a string.
  */
-
 int _strlen(char *s)
 {
 	int count = 0;
 
-
-	while (*s != 0)
-	{
+	while (*(s + count) != '\0')
 		count++;
-		s++;
-	}
 	return (count);
 }
