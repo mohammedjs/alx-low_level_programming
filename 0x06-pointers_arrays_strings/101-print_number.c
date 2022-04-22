@@ -1,14 +1,14 @@
 #include "main.h"
-
 /**
  * print_number- prints a number
  * @n: integer
  * Return: void
- * */
+ */
 
 void print_number(int n)
 {
 	unsigned int max, d, count;
+
 	if (n < 0)
 	{
 		_putchar(45);
