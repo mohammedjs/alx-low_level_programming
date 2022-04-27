@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 /**
  * print_diagsums - prints the sum of the two
